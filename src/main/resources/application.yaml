@@ -1,0 +1,6 @@
+as400:
+  driver: com.ibm.as400.access.AS400JDBCDriver
+  url: ${AS400_HOSTNAME}
+  username: ${AS400_USERNAME}
+  password: ${AS400_PASSWORD}
+  file: fittxnm
